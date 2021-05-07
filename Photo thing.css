@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    color: darkgreen;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.links {
+    float: left;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+#home {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    color: aquamarine;
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+}
+
+.profile {
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#idone {
+    color: darkgreen;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.img2 {
+    width: 250px;
+    height: 250px;
+}
+.img1{
+    width: 350px;
+    height: 250px;
+}
